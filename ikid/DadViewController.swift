@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DadViewController.swift
 //  ikid
 //
 //  Created by 郑智健 on 5/3/22.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DadViewController: UIViewController {
     @IBOutlet weak var  jokeLabel: UILabel!
     
     var jokeStatus = true
-    var punchline: String = "A coconut on Vacation"
-    var joke: String = "What is brown, hairy and wears sunglasses?"
+    var punchline: String = "Nothing, it just waved"
+    var joke: String = "What did the ocean say to the beach?"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,4 +33,3 @@ class ViewController: UIViewController {
 
 
 }
-

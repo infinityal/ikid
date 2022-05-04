@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PunViewController.swift
 //  ikid
 //
 //  Created by 郑智健 on 5/3/22.
@@ -7,12 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PunViewController: UIViewController {
+
     @IBOutlet weak var  jokeLabel: UILabel!
     
     var jokeStatus = true
-    var punchline: String = "A coconut on Vacation"
-    var joke: String = "What is brown, hairy and wears sunglasses?"
+    var punchline: String = "He was in Seine"
+    var joke: String = "Did you hear about the man who jumped off a bridge in France?"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,4 +34,3 @@ class ViewController: UIViewController {
 
 
 }
-

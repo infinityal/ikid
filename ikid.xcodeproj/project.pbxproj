@@ -16,6 +16,9 @@
 		32A8681A282145AA00AF2903 /* ikidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A86819282145AA00AF2903 /* ikidTests.swift */; };
 		32A86824282145AA00AF2903 /* ikidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A86823282145AA00AF2903 /* ikidUITests.swift */; };
 		32A86826282145AA00AF2903 /* ikidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A86825282145AA00AF2903 /* ikidUITestsLaunchTests.swift */; };
+		32A86839282159BB00AF2903 /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A86838282159BB00AF2903 /* DadViewController.swift */; };
+		32A8683B282159E600AF2903 /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8683A282159E600AF2903 /* PunViewController.swift */; };
+		32A8683D282159FD00AF2903 /* KnockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8683C282159FD00AF2903 /* KnockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		32A8681F282145AA00AF2903 /* ikidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A86823282145AA00AF2903 /* ikidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITests.swift; sourceTree = "<group>"; };
 		32A86825282145AA00AF2903 /* ikidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32A86838282159BB00AF2903 /* DadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
+		32A8683A282159E600AF2903 /* PunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunViewController.swift; sourceTree = "<group>"; };
+		32A8683C282159FD00AF2903 /* KnockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				32A86802282145A600AF2903 /* AppDelegate.swift */,
 				32A86804282145A600AF2903 /* SceneDelegate.swift */,
 				32A86806282145A600AF2903 /* ViewController.swift */,
+				32A86838282159BB00AF2903 /* DadViewController.swift */,
+				32A8683A282159E600AF2903 /* PunViewController.swift */,
+				32A8683C282159FD00AF2903 /* KnockViewController.swift */,
 				32A86808282145A600AF2903 /* Main.storyboard */,
 				32A8680B282145AA00AF2903 /* Assets.xcassets */,
 				32A8680D282145AA00AF2903 /* LaunchScreen.storyboard */,
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A86807282145A600AF2903 /* ViewController.swift in Sources */,
+				32A8683D282159FD00AF2903 /* KnockViewController.swift in Sources */,
+				32A8683B282159E600AF2903 /* PunViewController.swift in Sources */,
 				32A86803282145A600AF2903 /* AppDelegate.swift in Sources */,
+				32A86839282159BB00AF2903 /* DadViewController.swift in Sources */,
 				32A86805282145A600AF2903 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
